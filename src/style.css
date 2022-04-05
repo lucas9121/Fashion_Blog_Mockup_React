@@ -1,0 +1,85 @@
+.App {
+    border-left: solid;
+    border-width: 5px;
+    border-color: lightgray;
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin: 0 auto 2.5rem auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.main-nav {
+    color: lightgray;
+}
+
+.article {
+    padding: 1rem 2rem;
+}
+
+.article > article {
+    margin-bottom: 4rem;
+    border-bottom: solid red;
+    border-width: 1px;
+    padding: 0px 0 5% 0;
+}
+
+time {
+    font-size: xx-large;
+    color: lightgray;
+}
+
+.blog-title{
+    font-size: xxx-large;
+    margin-bottom: 0.8rem;
+}
+
+img {
+    width: 100%;
+}
+
+article > p::first-letter {
+    float: left;
+    font-size: 5rem;
+    margin: 0 0.5rem 0 0;
+    line-height: 0.85;
+    color: lightgray;
+}
+
+article > a {
+    float: right;
+    font-weight: bold;
+    color: tomato;
+}
+
+.footer {
+    padding: 1rem 2rem;
+}
+
+.footer-nav {
+    color: tomato;
+}
+
+footer > p {
+    color: lightgray;
+}
